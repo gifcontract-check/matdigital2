@@ -57,6 +57,40 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="about" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center max-w-3xl mx-auto">
+                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">Pourquoi nous choisir ?</h2>
+                <p className="mt-4 text-lg text-muted-foreground">
+                    Nous nous engageons à votre réussite. Voici ce qui nous différencie.
+                </p>
+            </div>
+            <div className="mt-12 grid gap-8 md:grid-cols-3">
+                <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                    <BookOpen className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Contenu d'Expert</h3>
+                    <p className="text-muted-foreground">
+                        Nos formations sont créées par des experts du secteur pour vous garantir un contenu à jour et pertinent.
+                    </p>
+                </div>
+                <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                    <Target className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Approche Pratique</h3>
+                    <p className="text-muted-foreground">
+                        Mettez en pratique ce que vous apprenez avec des projets concrets et des études de cas réels.
+                    </p>
+                </div>
+                <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                    <BrainCircuit className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Apprentissage Flexible</h3>
+                    <p className="text-muted-foreground">
+                        Apprenez à votre rythme, où que vous soyez, avec un accès à vie à toutes nos formations.
+                    </p>
+                </div>
+            </div>
+          </div>
+        </section>
+
         <section id="courses" className="w-full py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-2xl mx-auto mb-12">
@@ -94,41 +128,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center max-w-3xl mx-auto">
-                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">Pourquoi nous choisir ?</h2>
-                <p className="mt-4 text-lg text-muted-foreground">
-                    Nous nous engageons à votre réussite. Voici ce qui nous différencie.
-                </p>
-            </div>
-            <div className="mt-12 grid gap-8 md:grid-cols-3">
-                <div className="flex flex-col items-center text-center p-6">
-                    <BookOpen className="w-12 h-12 text-primary mb-4" />
-                    <h3 className="text-xl font-bold mb-2">Contenu d'Expert</h3>
-                    <p className="text-muted-foreground">
-                        Nos formations sont créées par des experts du secteur pour vous garantir un contenu à jour et pertinent.
-                    </p>
-                </div>
-                <div className="flex flex-col items-center text-center p-6">
-                    <Target className="w-12 h-12 text-primary mb-4" />
-                    <h3 className="text-xl font-bold mb-2">Approche Pratique</h3>
-                    <p className="text-muted-foreground">
-                        Mettez en pratique ce que vous apprenez avec des projets concrets et des études de cas réels.
-                    </p>
-                </div>
-                <div className="flex flex-col items-center text-center p-6">
-                    <BrainCircuit className="w-12 h-12 text-primary mb-4" />
-                    <h3 className="text-xl font-bold mb-2">Apprentissage Flexible</h3>
-                    <p className="text-muted-foreground">
-                        Apprenez à votre rythme, où que vous soyez, avec un accès à vie à toutes nos formations.
-                    </p>
-                </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="testimonials" className="w-full py-16 md:py-24 lg:py-32">
+        <section id="testimonials" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">Les avis de nos étudiants</h2>

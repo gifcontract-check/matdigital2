@@ -4,8 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navLinks = [
-  { href: "/#courses", label: "Formations" },
   { href: "/#about", label: "À Propos" },
+  { href: "/#courses", label: "Formations" },
+  { href: "/#testimonials", label: "Avis" },
   { href: "/study-plan", label: "Plan d'étude IA" },
 ];
 

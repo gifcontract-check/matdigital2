@@ -1,0 +1,101 @@
+OrderID,Product,Category,Price,Quantity,OrderDate,CustomerID,Country
+1,Widget A,Electronics,49.99,2,2023-01-15,C001,USA
+2,Gadget B,Electronics,89.50,1,2023-01-16,C002,Canada
+3,Thingamajig,Home Goods,12.00,5,2023-01-17,C003,UK
+4,Doohickey,Apparel,25.75,3,2023-01-18,C004,Germany
+5,Contraption,Toys,33.20,1,2023-01-19,C005,France
+6,Widget C,Electronics,55.00,4,2023-01-20,C006,Japan
+7,Gizmo,Electronics,199.99,1,2023-01-21,C007,Australia
+8,Apparatus,Home Goods,78.00,2,2023-01-22,C008,USA
+9,Super-Duper,Toys,15.95,10,2023-01-23,C009,Canada
+10,Whatchamacallit,Apparel,42.42,1,2023-01-24,C010,UK
+11,Widget A,Electronics,49.99,3,2023-02-01,C011,USA
+12,Gadget B,Electronics,89.50,1,2023-02-02,C012,Germany
+13,Thingamajig,Home Goods,12.00,2,2023-02-03,C013,France
+14,Doohickey,Apparel,25.75,4,2023-02-04,C014,Japan
+15,Contraption,Toys,33.20,2,2023-02-05,C015,Australia
+16,Widget C,Electronics,55.00,3,2023-02-06,C001,USA
+17,Gizmo,Electronics,199.99,1,2023-02-07,C002,Canada
+18,Apparatus,Home Goods,78.00,1,2023-02-08,C003,UK
+19,Super-Duper,Toys,15.95,8,2023-02-09,C004,Germany
+20,Whatchamacallit,Apparel,42.42,2,2023-02-10,C005,France
+21,Widget A,Electronics,49.99,1,2023-03-01,C016,USA
+22,Gadget B,Electronics,89.50,2,2023-03-02,C017,Canada
+23,Thingamajig,Home Goods,12.00,6,2023-03-03,C018,Japan
+24,Doohickey,Apparel,25.75,1,2023-03-04,C019,Australia
+25,Contraption,Toys,33.20,3,2023-03-05,C020,USA
+26,Widget C,Electronics,55.00,2,2023-03-06,C021,Canada
+27,Gizmo,Electronics,199.99,1,2023-03-07,C022,UK
+28,Apparatus,Home Goods,78.00,3,2023-03-08,C006,Germany
+29,Super-Duper,Toys,15.95,4,2023-03-09,C007,France
+30,Whatchamacallit,Apparel,42.42,5,2023-03-10,C008,Japan
+31,Widget A,Electronics,49.99,2,2023-04-01,C023,USA
+32,Gadget B,Electronics,89.50,1,2023-04-02,C024,Germany
+33,Thingamajig,Home Goods,12.00,10,2023-04-03,C025,France
+34,Doohickey,Apparel,25.75,2,2023-04-04,C011,Australia
+35,Contraption,Toys,33.20,1,2023-04-05,C012,USA
+36,Widget C,Electronics,55.00,4,2023-04-06,C013,Canada
+37,Gizmo,Electronics,199.99,1,2023-04-07,C014,UK
+38,Apparatus,Home Goods,78.00,2,2023-04-08,C015,Germany
+39,Super-Duper,Toys,15.95,6,2023-04-09,C016,France
+40,Whatchamacallit,Apparel,42.42,3,2023-04-10,C017,Japan
+41,Widget A,Electronics,49.99,3,2023-05-01,C026,USA
+42,Gadget B,Electronics,89.50,1,2023-05-02,C027,Canada
+43,Thingamajig,Home Goods,12.00,3,2023-05-03,C028,Australia
+44,Doohickey,Apparel,25.75,5,2023-05-04,C029,USA
+45,Contraption,Toys,33.20,2,2023-05-05,C030,Canada
+46,Widget C,Electronics,55.00,1,2023-05-06,C009,UK
+47,Gizmo,Electronics,199.99,1,2023-05-07,C010,Germany
+48,Apparatus,Home Goods,78.00,4,2023-05-08,C018,France
+49,Super-Duper,Toys,15.95,3,2023-05-09,C019,Japan
+50,Whatchamacallit,Apparel,42.42,1,2023-05-10,C020,USA
+51,Widget A,Electronics,49.99,2,2023-06-01,C031,Germany
+52,Gadget B,Electronics,89.50,2,2023-06-02,C032,France
+53,Thingamajig,Home Goods,12.00,7,2023-06-03,C033,Japan
+54,Doohickey,Apparel,25.75,2,2023-06-04,C034,Australia
+55,Contraption,Toys,33.20,1,2023-06-05,C035,USA
+56,Widget C,Electronics,55.00,3,2023-06-06,C021,Canada
+57,Gizmo,Electronics,199.99,1,2023-06-07,C022,UK
+58,Apparatus,Home Goods,78.00,1,2023-06-08,C023,Germany
+59,Super-Duper,Toys,15.95,5,2023-06-09,C024,France
+60,Whatchamacallit,Apparel,42.42,2,2023-06-10,C025,Japan
+61,Widget A,Electronics,49.99,4,2023-07-01,C036,USA
+62,Gadget B,Electronics,89.50,1,2023-07-02,C037,Canada
+63,Thingamajig,Home Goods,12.00,8,2023-07-03,C038,UK
+64,Doohickey,Apparel,25.75,3,2023-07-04,C039,Germany
+65,Contraption,Toys,33.20,2,2023-07-05,C040,France
+66,Widget C,Electronics,55.00,1,2023-07-06,C026,Japan
+67,Gizmo,Electronics,199.99,1,2023-07-07,C027,Australia
+68,Apparatus,Home Goods,78.00,2,2023-07-08,C028,USA
+69,Super-Duper,Toys,15.95,7,2023-07-09,C029,Canada
+70,Whatchamacallit,Apparel,42.42,4,2023-07-10,C030,UK
+71,Widget A,Electronics,49.99,1,2023-08-01,C041,Germany
+72,Gadget B,Electronics,89.50,3,2023-08-02,C042,France
+73,Thingamajig,Home Goods,12.00,4,2023-08-03,C043,Japan
+74,Doohickey,Apparel,25.75,1,2023-08-04,C044,Australia
+75,Contraption,Toys,33.20,3,2023-08-05,C045,USA
+76,Widget C,Electronics,55.00,2,2023-08-06,C031,Canada
+77,Gizmo,Electronics,199.99,1,2023-08-07,C032,UK
+78,Apparatus,Home Goods,78.00,3,2023-08-08,C033,Germany
+79,Super-Duper,Toys,15.95,9,2023-08-09,C034,France
+80,Whatchamacallit,Apparel,42.42,1,2023-08-10,C035,Japan
+81,Widget A,Electronics,49.99,2,2023-09-01,C046,USA
+82,Gadget B,Electronics,89.50,1,2023-09-02,C047,Canada
+83,Thingamajig,Home Goods,12.00,5,2023-09-03,C048,UK
+84,Doohickey,Apparel,25.75,2,2023-09-04,C049,Germany
+85,Contraption,Toys,33.20,2,2023-09-05,C050,France
+86,Widget C,Electronics,55.00,4,2023-09-06,C036,Japan
+87,Gizmo,Electronics,199.99,1,2023-09-07,C037,Australia
+88,Apparatus,Home Goods,78.00,1,2023-09-08,C038,USA
+89,Super-Duper,Toys,15.95,6,2023-09-09,C039,Canada
+90,Whatchamacallit,Apparel,42.42,3,2023-09-10,C040,UK
+91,Widget A,Electronics,49.99,3,2023-10-01,C051,Germany
+92,Gadget B,Electronics,89.50,1,2023-10-02,C052,France
+93,Thingamajig,Home Goods,12.00,12,2023-10-03,C053,Japan
+94,Doohickey,Apparel,25.75,4,2023-10-04,C054,Australia
+95,Contraption,Toys,33.20,1,2023-10-05,C055,USA
+96,Widget C,Electronics,55.00,2,2023-10-06,C041,Canada
+97,Gizmo,Electronics,199.99,1,2023-10-07,C042,UK
+98,Apparatus,Home Goods,78.00,2,2023-10-08,C043,Germany
+99,Super-Duper,Toys,15.95,8,2023-10-09,C044,France
+100,Whatchamacallit,Apparel,42.42,2,2023-10-10,C045,Japan

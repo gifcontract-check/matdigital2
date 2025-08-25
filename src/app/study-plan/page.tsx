@@ -9,8 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { COURSES_DATA } from "@/lib/constants";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Bot, CheckCircle, Clock, FileText, Loader2, Send, Terminal, Zap } from "lucide-react";
+import { Bot, CheckCircle, Clock, FileText, Loader2, Send, Zap } from "lucide-react";
 import { useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -46,7 +45,6 @@ export default function StudyPlanPage() {
       });
     }
   }, [state.error, toast]);
-
 
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4 md:px-6">

@@ -75,7 +75,7 @@ const prompt = ai.definePrompt({
 
   The study plan should include the course name, module name, estimated completion date, and the number of hours to spend on each module each week.
 
-  Courses: {{{JSON.stringify courses}}}
+  Courses: {{{courses}}}
   Available Hours Per Week: {{{availableHoursPerWeek}}}
   Start Date: {{{startDate}}}
 
@@ -90,7 +90,7 @@ const personalizedStudyPlanFlow = ai.defineFlow(
     outputSchema: PersonalizedStudyPlanOutputSchema,
   },
   async input => {
-    const {output} = await prompt(input);
+    const {output} = await prompt({...input, courses: JSON.stringify(input.courses) as any});
     return output!;
   }
 );

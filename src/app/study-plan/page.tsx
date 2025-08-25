@@ -110,7 +110,7 @@ export default function StudyPlanPage() {
                             <span>Fin estimée: {new Date(item.estimatedCompletionDate).toLocaleDateString('fr-FR')}</span>
                         </div>
                     </CardContent>
-                    </Card>>
+                    </Card>
                 ))}
                 </div>
             ) : (

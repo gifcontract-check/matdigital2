@@ -6,8 +6,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 const navLinks = [
   { href: "/#about", label: "À Propos" },
   { href: "/#courses", label: "Formations" },
+  { href: "/#simulator", label: "Simulation" },
   { href: "/#testimonials", label: "Avis" },
-  { href: "/study-plan", label: "Plan d'étude IA" },
 ];
 
 export default function Header() {
@@ -58,3 +58,5 @@ export default function Header() {
     </header>
   );
 }
+
+    

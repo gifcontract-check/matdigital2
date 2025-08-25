@@ -1,12 +1,19 @@
+
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Bot, Star, BookOpen, Target, BrainCircuit } from "lucide-react";
+import { ArrowRight, Star, BookOpen, Target, Brain, Lightbulb, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { COURSES_DATA, TESTIMONIALS_DATA } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { useState } from "react";
+import { Slider } from "@/components/ui/slider";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 const renderStars = (rating: number) => {
   const stars = [];
@@ -22,6 +29,60 @@ const renderStars = (rating: number) => {
   }
   return <div className="flex gap-1">{stars}</div>;
 };
+
+const SalarySimulator = () => {
+    const [hours, setHours] = useState(10);
+    const [salaryRange, setSalaryRange] = useState("1 500€ - 2 500€");
+
+    const handleHoursChange = (value: number) => {
+        setHours(value);
+        if (value <= 5) {
+            setSalaryRange("500€ - 1 000€");
+        } else if (value <= 10) {
+            setSalaryRange("1 500€ - 2 500€");
+        } else if (value <= 20) {
+            setSalaryRange("2 500€ - 4 000€");
+        } else if (value <= 35) {
+            setSalaryRange("4 000€ - 6 000€");
+        } else {
+            setSalaryRange("6 000€+");
+        }
+    };
+
+    return (
+        <Card className="w-full max-w-3xl mx-auto">
+            <CardHeader className="text-center">
+                <CardTitle className="text-2xl font-bold font-headline flex items-center justify-center gap-2"><DollarSign className="w-8 h-8 text-primary"/>Estimez votre potentiel de revenus</CardTitle>
+                <CardDescription>Indiquez le nombre d'heures que vous pouvez consacrer par semaine pour voir ce que vous pourriez atteindre.</CardDescription>
+            </CardHeader>
+            <CardContent className="px-8 py-6">
+                <div className="space-y-6">
+                    <div className="text-center">
+                        <Label htmlFor="hours-slider" className="text-lg font-medium">Heures par semaine : <span className="text-primary font-bold">{hours}h</span></Label>
+                        <Slider
+                            id="hours-slider"
+                            min={1}
+                            max={50}
+                            step={1}
+                            value={[hours]}
+                            onValueChange={(value) => handleHoursChange(value[0])}
+                            className="mt-4"
+                        />
+                    </div>
+                    <div className="text-center pt-4">
+                        <p className="text-muted-foreground mb-2">Votre estimation de revenus mensuels :</p>
+                        <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+                            {salaryRange}
+                        </p>
+                    </div>
+                </div>
+            </CardContent>
+            <CardFooter className="text-center text-xs text-muted-foreground p-4 border-t">
+                <p>Cette estimation est basée sur les résultats moyens de nos étudiants et ne constitue pas une garantie de revenus. Votre succès dépend de votre implication, de votre niche et de votre capacité à appliquer les stratégies enseignées.</p>
+            </CardFooter>
+        </Card>
+    );
+}
 
 
 export default function Home() {
@@ -47,11 +108,6 @@ export default function Home() {
                     Découvrir nos formations <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button asChild size="lg" variant="outline">
-                  <Link href="/study-plan">
-                    Plan d'étude IA <Bot className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
               </div>
             </div>
           </div>
@@ -65,7 +121,7 @@ export default function Home() {
                     Nous nous engageons à votre réussite. Voici ce qui nous différencie.
                 </p>
             </div>
-            <div className="mt-12 grid gap-8 md:grid-cols-3">
+            <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
                     <BookOpen className="w-12 h-12 text-primary mb-4" />
                     <h3 className="text-xl font-bold mb-2">Contenu d'Expert</h3>
@@ -80,11 +136,18 @@ export default function Home() {
                         Mettez en pratique ce que vous apprenez avec des projets concrets et des études de cas réels.
                     </p>
                 </div>
-                <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-                    <BrainCircuit className="w-12 h-12 text-primary mb-4" />
-                    <h3 className="text-xl font-bold mb-2">Apprentissage Flexible</h3>
+                 <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                    <Brain className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Pédagogie Active</h3>
                     <p className="text-muted-foreground">
-                        Apprenez à votre rythme, où que vous soyez, avec un accès à vie à toutes nos formations.
+                       Une approche qui vous implique activement pour une mémorisation et une compréhension profondes.
+                    </p>
+                </div>
+                <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                    <Lightbulb className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Projets Concrets</h3>
+                    <p className="text-muted-foreground">
+                       Appliquez vos connaissances sur des projets réels pour construire un portfolio solide.
                     </p>
                 </div>
             </div>
@@ -128,7 +191,14 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="testimonials" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
+        <section id="simulator" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
+            <div className="container mx-auto px-4 md:px-6">
+                <SalarySimulator />
+            </div>
+        </section>
+
+
+        <section id="testimonials" className="w-full py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-2xl mx-auto mb-12">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">Les avis de nos étudiants</h2>
@@ -170,3 +240,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

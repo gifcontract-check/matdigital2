@@ -103,9 +103,9 @@ export default function Home() {
                 Accédez à des formations de pointe pour maîtriser le marketing digital, la création de business en ligne et booster votre productivité.
               </p>
               <div className="mt-8 flex justify-center gap-4">
-                <Button asChild size="lg">
+                <Button asChild size="lg" className="group">
                   <Link href="#courses">
-                    Découvrir nos formations <ArrowRight className="ml-2 h-5 w-5" />
+                    Découvrir nos formations <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
                   </Link>
                 </Button>
               </div>
@@ -181,8 +181,8 @@ export default function Home() {
                   </CardContent>
                   <CardFooter className="p-6 pt-0 flex-col items-start space-y-4">
                     <p className="text-2xl font-bold text-primary">{course.price}€</p>
-                    <Button asChild className="w-full">
-                      <Link href="#">Voir la formation</Link>
+                    <Button asChild className="w-full group">
+                      <Link href="#">Voir la formation <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" /></Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -240,5 +240,3 @@ export default function Home() {
     </div>
   );
 }
-
-    

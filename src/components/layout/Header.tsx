@@ -1,7 +1,11 @@
+"use client";
+
 import Link from "next/link";
-import { Orbit, Menu } from "lucide-react";
+import { Orbit, Menu, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { useState, useEffect } from "react";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/#about", label: "À Propos" },
@@ -11,8 +15,27 @@ const navLinks = [
 ];
 
 export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Définir à true si l'utilisateur a fait défiler plus de 10px
+      setScrolled(window.scrollY > 10);
+    };
+
+    // Ajouter l'écouteur d'événement
+    window.addEventListener("scroll", handleScroll);
+
+    // Retirer l'écouteur lors du démontage du composant
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className={cn(
+        "sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+      )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <Orbit className="h-7 w-7 text-primary" />
@@ -26,8 +49,11 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-4">
-            <Button asChild className="hidden md:flex">
-                <Link href="#">Contact</Link>
+            <Button asChild className="hidden md:flex" variant={scrolled ? "default" : "secondary"}>
+                <Link href="/#courses">
+                    Découvrir nos formations
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+                </Link>
             </Button>
             <Sheet>
             <SheetTrigger asChild>
@@ -48,7 +74,7 @@ export default function Header() {
                   </Link>
                 ))}
                 <Button asChild className="mt-4">
-                  <Link href="#">Contact</Link>
+                  <Link href="#courses">Découvrir nos formations</Link>
                 </Button>
               </div>
             </SheetContent>
@@ -58,5 +84,3 @@ export default function Header() {
     </header>
   );
 }
-
-    

@@ -35,7 +35,7 @@ export const COURSES_DATA: Course[] = [
     image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/34242500-483c-4edd-9e69-bd304f54308d__store__product-image__eacbb141-d710-44f5-835e-f8ad49fc5697__ff90def1-fd51-4ae3-8a0b-b43d671b5143.webp?t=1755418230409",
     dataAiHint: "online business",
     price: 14.99,
-    link: "#",
+    link: "https://matdigital.store/shop/eacbb141-d710-44f5-835e-f8ad49fc5697?pageViewSource=lib_view&referrer=https%3A%2F%2Fmatdigital.store%2F&show_back_button=true",
     modules: [
         { name: "Trouver une idée de business rentable", duration: 5 },
         { name: "Valider son marché et son offre", duration: 5 },

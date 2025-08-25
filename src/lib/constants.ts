@@ -58,7 +58,7 @@ export const COURSES_DATA: Course[] = [
    {
     id: "ia-content-creator",
     title: "Plan détaillé sur le marketing digital sans montrer votre visage + MRR",
-    image: "https://picsum.photos/600/400?random=4",
+    image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/f573b5eb-5dcd-4979-ae9b-5053df4d12bf__store__product-image__1077a332-da0e-40db-8813-8345db30a235__fb758dd6-3594-47d2-83a9-5f8eb19fb3e6.webp?t=1753480870067",
     dataAiHint: "ai content creation",
     price: 9.99,
     modules: [

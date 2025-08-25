@@ -177,7 +177,6 @@ export default function Home() {
                   </CardHeader>
                   <CardContent className="flex-grow p-6">
                     <CardTitle className="font-headline text-xl mb-2">{course.title}</CardTitle>
-                    <CardDescription>{course.description}</CardDescription>
                   </CardContent>
                   <CardFooter className="p-6 pt-0 flex-col items-start space-y-4">
                     <p className="text-2xl font-bold text-primary">{course.price}€</p>
@@ -240,5 +239,3 @@ export default function Home() {
     </div>
   );
 }
-
-    

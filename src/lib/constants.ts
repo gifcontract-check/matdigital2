@@ -1,7 +1,8 @@
+
 export type Course = {
   id: string;
   title: string;
-  description: string;
+  description?: string;
   image: string;
   dataAiHint: string;
   price: number;
@@ -14,8 +15,7 @@ export type Course = {
 export const COURSES_DATA: Course[] = [
   {
     id: "marketing-360",
-    title: "Marketing Digital 360°",
-    description: "Devenez un expert complet du marketing en ligne: SEO, SEA, réseaux sociaux, email-marketing et bien plus.",
+    title: "(MDE) formation marketing digital + coaching privé + canal privé + 8 ebook offerts + MRR",
     image: "https://picsum.photos/600/400?random=1",
     dataAiHint: "digital marketing",
     price: 49.99,
@@ -29,8 +29,7 @@ export const COURSES_DATA: Course[] = [
   },
   {
     id: "business-lauch",
-    title: "Business en Ligne: de Zéro à Héros",
-    description: "Lancez votre business en ligne de A à Z. Trouvez votre idée, créez votre offre et réalisez vos premières ventes.",
+    title: "service de création et configuration de votre compte beacons 💻",
     image: "https://picsum.photos/600/400?random=2",
     dataAiHint: "online business",
     price: 14.99,
@@ -44,8 +43,7 @@ export const COURSES_DATA: Course[] = [
   },
   {
     id: "productivity-master",
-    title: "Productivité Maximale pour Entrepreneur",
-    description: "Doublez votre efficacité et libérez du temps grâce à des systèmes et outils de productivité éprouvés.",
+    title: "Pack de fournisseur premium 🚚",
     image: "https://picsum.photos/600/400?random=3",
     dataAiHint: "productivity tools",
     price: 19.99,
@@ -59,8 +57,7 @@ export const COURSES_DATA: Course[] = [
   },
    {
     id: "ia-content-creator",
-    title: "Créateur de Contenu IA",
-    description: "Utilisez l'intelligence artificielle pour créer du contenu de qualité plus rapidement et facilement.",
+    title: "Plan détaillé sur le marketing digital sans montrer votre visage + MRR",
     image: "https://picsum.photos/600/400?random=4",
     dataAiHint: "ai content creation",
     price: 9.99,

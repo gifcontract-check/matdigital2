@@ -44,7 +44,7 @@ export const COURSES_DATA: Course[] = [
   {
     id: "productivity-master",
     title: "Pack de fournisseur premium 🚚",
-    image: "https://picsum.photos/600/400?random=3",
+    image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/761a09e7-0f8e-4ba1-afc8-429e04732ef9__store__product-image__671f4fa7-7b87-443c-bf50-8d641f3b47f9__aee58792-d6e1-4aad-ba88-0482e63e5efb.webp?t=1755159599220",
     dataAiHint: "productivity tools",
     price: 19.99,
     modules: [

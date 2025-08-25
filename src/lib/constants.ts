@@ -16,7 +16,7 @@ export const COURSES_DATA: Course[] = [
   {
     id: "marketing-360",
     title: "(MDE) formation marketing digital + coaching privé + canal privé + 8 ebook offerts + MRR",
-    image: "https://picsum.photos/600/400?random=1",
+    image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/2b2901e7-5073-48d5-a506-2aa7bcf965b8__store__product-image__27fce2e6-b85d-4079-8f11-1811d7e62eb3__5a11f7ac-0f01-4dc8-87cc-eb0809c7bad4.webp?t=1756141389612",
     dataAiHint: "digital marketing",
     price: 49.99,
     modules: [

@@ -181,7 +181,7 @@ export default function Home() {
                   <CardFooter className="p-6 pt-0 flex-col items-start space-y-4">
                     <p className="text-2xl font-bold text-primary">{course.price}€</p>
                     <Button asChild className="w-full group">
-                      <Link href="#">Voir la formation <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" /></Link>
+                      <Link href={course.link} target="_blank" rel="noopener noreferrer">Voir la formation <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" /></Link>
                     </Button>
                   </CardFooter>
                 </Card>

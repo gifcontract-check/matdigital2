@@ -50,7 +50,7 @@ export const COURSES_DATA: Course[] = [
     image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/761a09e7-0f8e-4ba1-afc8-429e04732ef9__store__product-image__671f4fa7-7b87-443c-bf50-8d641f3b47f9__aee58792-d6e1-4aad-ba88-0482e63e5efb.webp?t=1755159599220",
     dataAiHint: "productivity tools",
     price: 19.99,
-    link: "#",
+    link: "https://matdigital.store/shop/671f4fa7-7b87-443c-bf50-8d641f3b47f9?pageViewSource=lib_view&referrer=https%3A%2F%2Fmatdigital.store%2F&show_back_button=true",
     modules: [
         { name: "Les fondations de la productivité", duration: 2 },
         { name: "Gestion du temps et des priorités", duration: 6 },

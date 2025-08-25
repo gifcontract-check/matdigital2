@@ -65,7 +65,7 @@ export const COURSES_DATA: Course[] = [
     image: "https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/f573b5eb-5dcd-4979-ae9b-5053df4d12bf__store__product-image__1077a332-da0e-40db-8813-8345db30a235__fb758dd6-3594-47d2-83a9-5f8eb19fb3e6.webp?t=1753480870067",
     dataAiHint: "ai content creation",
     price: 9.99,
-    link: "#",
+    link: "https://matdigital.store/shop/1077a332-da0e-40db-8813-8345db30a235?pageViewSource=lib_view&referrer=https%3A%2F%2Fmatdigital.store%2F&show_back_button=true",
     modules: [
         { name: "Introduction à la création de contenu par IA", duration: 2 },
         { name: "Maîtriser les prompts pour des résultats parfaits", duration: 6 },

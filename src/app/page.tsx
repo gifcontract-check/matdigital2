@@ -97,7 +97,7 @@ export default function Home() {
                 N°1 des formations business en ligne
               </Badge>
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-                Devenez un expert du digital.
+                Devenez un expert du numérique.
               </h1>
               <p className="mt-6 text-lg md:text-xl text-muted-foreground">
                 Accédez à des formations de pointe pour maîtriser le marketing digital, la création de business en ligne et booster votre productivité.
@@ -240,3 +240,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

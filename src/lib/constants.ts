@@ -15,7 +15,7 @@ export type Course = {
 
 export const CAROUSEL_IMAGES = [
   { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/a826910c-53f2-4ee0-9a4d-ba12c2657cb8__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__2d5f0f9d-da58-4467-ad9f-632046cef219.webp?t=1756189175053", alt: "Image 1", dataAiHint: "luxury products" },
-  { src: "https://picsum.photos/1280/720?random=2", alt: "Image 2", dataAiHint: "fashion items" },
+  { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/e6f39817-b721-46d9-85b4-77a08dbcd4cb__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__583215b1-6386-473d-b833-5fd7a556a2d3.webp?t=1756189187956", alt: "Image 2", dataAiHint: "fashion items" },
   { src: "https://picsum.photos/1280/720?random=3", alt: "Image 3", dataAiHint: "designer clothes" },
 ];
 

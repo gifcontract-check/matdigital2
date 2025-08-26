@@ -68,5 +68,10 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/7a27ca38-465d-4c6a-96d8-058c620f161c__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__acacf1c6-e52f-4eaf-abe0-caeae05be0eb.webp?t=1756202191237');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }

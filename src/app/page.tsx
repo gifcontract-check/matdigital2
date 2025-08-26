@@ -279,7 +279,7 @@ export default function Home() {
                 data-ai-hint="student success"
               />
                <Image 
-                src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/d9549b4d-90e5-4c88-9216-c538e1af539b__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__f0888212-6ab4-4c2b-9293-e9bbc30d9e1e.jpg?t=1756138790669"
+                src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/d7e40f9b-f727-41d8-a478-df4a3ef9fbc8__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__8c8097b4-2890-4288-a3de-2d5b533145c4.jpg?t=1756138745626"
                 alt="Résultat étudiant 2"
                 width={1080}
                 height={1080}

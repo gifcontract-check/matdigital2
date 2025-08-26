@@ -52,13 +52,13 @@ const SalarySimulator = () => {
     return (
         <Card className="w-full max-w-3xl mx-auto bg-card/10 backdrop-blur-sm">
             <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold font-headline flex items-center justify-center gap-2 text-card-foreground"><DollarSign className="w-8 h-8 text-primary"/>Estimez votre potentiel de revenus</CardTitle>
+                <CardTitle className="text-xl md:text-2xl font-bold font-headline flex items-center justify-center gap-2 text-card-foreground"><DollarSign className="w-8 h-8 text-primary"/>Estimez votre potentiel de revenus</CardTitle>
                 <CardDescription>Indiquez le nombre d'heures que vous pouvez consacrer par semaine pour voir ce que vous pourriez atteindre.</CardDescription>
             </CardHeader>
-            <CardContent className="px-8 py-6">
+            <CardContent className="px-6 md:px-8 py-6">
                 <div className="space-y-6">
                     <div className="text-center">
-                        <Label htmlFor="hours-slider" className="text-lg font-medium text-card-foreground">Heures par semaine : <span className="text-primary font-bold">{hours}h</span></Label>
+                        <Label htmlFor="hours-slider" className="text-base md:text-lg font-medium text-card-foreground">Heures par semaine : <span className="text-primary font-bold">{hours}h</span></Label>
                         <Slider
                             id="hours-slider"
                             min={1}
@@ -71,7 +71,7 @@ const SalarySimulator = () => {
                     </div>
                     <div className="text-center pt-4">
                         <p className="text-muted-foreground mb-2">Votre estimation de revenus mensuels :</p>
-                        <p className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+                        <p className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                             {salaryRange}
                         </p>
                     </div>
@@ -96,10 +96,10 @@ export default function Home() {
                 <Star className="w-4 h-4 mr-2" />
                 N°1 des formations business en ligne
               </Badge>
-              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
                 Devenez un expert du numérique.
               </h1>
-              <p className="mt-6 text-lg md:text-xl text-foreground/80 font-medium">
+              <p className="mt-6 text-base md:text-xl text-foreground/80 font-medium">
                 Accédez à des formations de pointe pour maîtriser le marketing digital, la création de business en ligne et booster votre productivité.
               </p>
               <div className="mt-8 flex justify-center gap-4">
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+        
         <section id="carousel" className="w-full py-12 md:py-16 lg:py-20">
             <Carousel opts={{ loop: true }} className="w-full max-w-4xl mx-auto">
               <CarouselContent>
@@ -146,7 +146,7 @@ export default function Home() {
                     Nous nous engageons à votre réussite. Voici ce qui nous différencie.
                 </p>
             </div>
-            <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 <div className="flex flex-col items-center text-center p-6 rounded-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:bg-background/10">
                     <BookOpen className="w-12 h-12 text-primary mb-4" />
                     <h3 className="text-xl font-bold mb-2">Contenu d'Expert</h3>
@@ -187,7 +187,7 @@ export default function Home() {
                 Des programmes conçus pour vous donner des compétences concrètes et applicables immédiatement.
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {COURSES_DATA.map((course) => (
                 <Card key={course.id} className="flex flex-col overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl bg-card/10 backdrop-blur-sm">
                   <CardHeader className="p-0">
@@ -269,7 +269,7 @@ export default function Home() {
                 Des exemples concrets de la réussite de nos étudiants.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-center">
               <Image 
                 src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/be3b385d-72a5-4a26-8486-8dcdfee7b8f7__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__82153892-136e-4178-8acf-030e060f5833.jpg?t=1756138933221"
                 alt="Résultat étudiant 1"
@@ -302,3 +302,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

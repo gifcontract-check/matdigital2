@@ -260,9 +260,37 @@ export default function Home() {
             </Carousel>
           </div>
         </section>
+
+        <section id="results" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center max-w-2xl mx-auto mb-12">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">Découvrez leurs résultats</h2>
+              <p className="mt-4 text-muted-foreground">
+                Des exemples concrets de la réussite de nos étudiants.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <Image 
+                src="https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/baf57303-7c26-40e5-bc78-989e94378245__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__6ee8b7bd-2ac6-475a-b171-982d575e49b9.webp?t=1756189241510"
+                alt="Résultat étudiant 1"
+                width={1280}
+                height={720}
+                className="rounded-lg shadow-lg"
+                data-ai-hint="student success"
+              />
+               <Image 
+                src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/d9549b4d-90e5-4c88-9216-c538e1af539b__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__f0888212-6ab4-4c2b-9293-e9bbc30d9e1e.jpg?t=1756138790669"
+                alt="Résultat étudiant 2"
+                width={1080}
+                height={1080}
+                className="rounded-lg shadow-lg"
+                data-ai-hint="student achievement"
+              />
+            </div>
+          </div>
+        </section>
+
       </main>
     </div>
   );
 }
-
-    

@@ -14,6 +14,7 @@ const navLinks = [
   { href: "/#courses", label: "Formations" },
   { href: "/#simulator", label: "Simulation" },
   { href: "/#testimonials", label: "Avis" },
+  { href: "/#results", label: "Résultats" },
 ];
 
 export default function Header() {
@@ -86,5 +87,3 @@ export default function Header() {
     </header>
   );
 }
-
-    

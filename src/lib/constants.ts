@@ -17,6 +17,7 @@ export const CAROUSEL_IMAGES = [
   { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/a826910c-53f2-4ee0-9a4d-ba12c2657cb8__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__2d5f0f9d-da58-4467-ad9f-632046cef219.webp?t=1756189175053", alt: "Image 1", dataAiHint: "luxury products" },
   { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/e6f39817-b721-46d9-85b4-77a08dbcd4cb__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__583215b1-6386-473d-b833-5fd7a556a2d3.webp?t=1756189187956", alt: "Image 2", dataAiHint: "fashion items" },
   { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/9a2c48b1-ef69-47c1-9655-8cde17569f54__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__4c519762-d18c-49f7-b425-587ce0acc3a3.webp?t=1756189207412", alt: "Image 3", dataAiHint: "product showcase" },
+  { src: "https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/e85ec03d-ae8c-4a98-a140-7f6326c8410b__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__2abe48a7-5502-42ab-9a5f-06c7b670013f.webp?t=1756189219494", alt: "Image 4", dataAiHint: "digital concept" },
 ];
 
 export const COURSES_DATA: Course[] = [

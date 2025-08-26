@@ -90,7 +90,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
         <section id="carousel" className="w-full py-12 md:py-16 lg:py-20">
-            <Carousel opts={{ loop: true }} className="w-full max-w-7xl mx-auto">
+            <Carousel opts={{ loop: true }} className="w-full max-w-4xl mx-auto">
               <CarouselContent>
                 {CAROUSEL_IMAGES.map((image, index) => (
                   <CarouselItem key={index}>
@@ -100,15 +100,13 @@ export default function Home() {
                           alt={image.alt}
                           width={1280}
                           height={720}
-                          className="w-full h-auto object-cover rounded-lg"
+                          className="w-full h-auto object-cover rounded-lg aspect-video"
                           data-ai-hint={image.dataAiHint}
                         />
                     </div>
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden sm:flex" />
-              <CarouselNext className="hidden sm:flex" />
             </Carousel>
         </section>
 

@@ -107,6 +107,10 @@ export default function Home() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
+               <div className="flex justify-center gap-4 mt-4">
+                <CarouselPrevious className="relative -left-0 top-auto -translate-y-0" />
+                <CarouselNext className="relative -right-0 top-auto -translate-y-0" />
+              </div>
             </Carousel>
         </section>
 

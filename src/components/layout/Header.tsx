@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -8,6 +9,7 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
+  { href: "/#carousel", label: "Nouveautés" },
   { href: "/#about", label: "À Propos" },
   { href: "/#courses", label: "Formations" },
   { href: "/#simulator", label: "Simulation" },

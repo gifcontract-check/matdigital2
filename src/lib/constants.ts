@@ -13,6 +13,12 @@ export type Course = {
   }[];
 };
 
+export const CAROUSEL_IMAGES = [
+  { src: "https://picsum.photos/1280/720?random=1", alt: "Image 1", dataAiHint: "luxury products" },
+  { src: "https://picsum.photos/1280/720?random=2", alt: "Image 2", dataAiHint: "fashion items" },
+  { src: "https://picsum.photos/1280/720?random=3", alt: "Image 3", dataAiHint: "designer clothes" },
+];
+
 export const COURSES_DATA: Course[] = [
   {
     id: "marketing-360",

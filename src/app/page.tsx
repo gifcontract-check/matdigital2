@@ -7,7 +7,7 @@ import { ArrowRight, Star, BookOpen, Target, Brain, Lightbulb, DollarSign } from
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { COURSES_DATA, TESTIMONIALS_DATA } from "@/lib/constants";
+import { COURSES_DATA, TESTIMONIALS_DATA, CAROUSEL_IMAGES } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useState } from "react";
@@ -89,6 +89,29 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
+        <section id="carousel" className="w-full py-12 md:py-16 lg:py-20">
+            <Carousel opts={{ loop: true }} className="w-full max-w-7xl mx-auto">
+              <CarouselContent>
+                {CAROUSEL_IMAGES.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <div className="p-1">
+                       <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={1280}
+                          height={720}
+                          className="w-full h-auto object-cover rounded-lg"
+                          data-ai-hint={image.dataAiHint}
+                        />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden sm:flex" />
+              <CarouselNext className="hidden sm:flex" />
+            </Carousel>
+        </section>
+
         <section id="hero" className="w-full py-20 md:py-32 lg:py-40 bg-gradient-to-br from-primary/10 via-background to-accent/10">
           <div className="container mx-auto px-4 md:px-6 text-center">
             <div className="max-w-3xl mx-auto">

@@ -5,9 +5,9 @@
 @layer base {
   :root {
     --background: 210 40% 98%;
-    --foreground: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
-    --card-foreground: 210 40% 98%;
+    --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary: 217.2 91.2% 59.8%;
@@ -15,7 +15,7 @@
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 84% 4.9%;
     --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 80%;
+    --muted-foreground: 215.4 16.3% 46.9%;
     --accent: 287 85% 54%;
     --accent-foreground: 210 40% 98%;
     --destructive: 0 84.2% 60.2%;
@@ -68,15 +68,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/7a27ca38-465d-4c6a-96d8-058c620f161c__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__acacf1c6-e52f-4eaf-abe0-caeae05be0eb.webp?t=1756202191237');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  @screen md {
-    body {
-      background-attachment: fixed;
-    }
   }
 }

@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-secondary/10 backdrop-blur-sm border-t">
+    <footer className="w-full bg-secondary border-t">
       <div className="border-t">
         <div className="container mx-auto flex flex-col justify-center items-center py-4 px-4 md:px-6 text-sm text-muted-foreground">
           <p className="mb-1">Créer par LC-Agency</p>

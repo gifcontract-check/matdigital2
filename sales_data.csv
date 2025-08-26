@@ -1,0 +1,101 @@
+OrderID,Product,Category,Quantity,Price,OrderDate,Country
+1,Formation Marketing Digital,Formations,1,49.99,2023-01-15,France
+2,Coaching Privé,Services,1,150.00,2023-01-16,Belgique
+3,Ebook: Guide SEO,Livres,1,9.99,2023-01-17,Suisse
+4,Pack de Templates,Templates,1,19.99,2023-01-18,Canada
+5,Service Création Beacons,Services,1,14.99,2023-01-20,France
+6,Fournisseur Premium,Abonnements,1,19.99,2023-01-22,Luxembourg
+7,Plan Marketing Faceless,Plans,1,9.99,2023-01-23,France
+8,Formation Marketing Digital,Formations,1,49.99,2023-01-25,Belgique
+9,Ebook: Guide SEO,Livres,1,9.99,2023-01-28,France
+10,Pack de Templates,Templates,1,19.99,2023-02-01,Canada
+11,Service Création Beacons,Services,1,14.99,2023-02-03,Suisse
+12,Coaching Privé,Services,1,150.00,2023-02-05,France
+13,Formation Marketing Digital,Formations,1,49.99,2023-02-07,France
+14,Fournisseur Premium,Abonnements,1,19.99,2023-02-10,Belgique
+15,Plan Marketing Faceless,Plans,1,9.99,2023-02-12,France
+16,Ebook: Guide SEO,Livres,1,9.99,2023-02-15,Canada
+17,Formation Marketing Digital,Formations,1,49.99,2023-02-18,France
+18,Pack de Templates,Templates,1,19.99,2023-02-20,Luxembourg
+19,Service Création Beacons,Services,1,14.99,2023-02-22,France
+20,Coaching Privé,Services,1,150.00,2023-02-25,Suisse
+21,Fournisseur Premium,Abonnements,1,19.99,2023-03-01,France
+22,Plan Marketing Faceless,Plans,1,9.99,2023-03-04,Belgique
+23,Formation Marketing Digital,Formations,1,49.99,2023-03-06,Canada
+24,Ebook: Guide SEO,Livres,1,9.99,2023-03-09,France
+25,Pack de Templates,Templates,1,19.99,2023-03-12,France
+26,Service Création Beacons,Services,1,14.99,2023-03-15,Suisse
+27,Formation Marketing Digital,Formations,1,49.99,2023-03-18,France
+28,Coaching Privé,Services,1,150.00,2023-03-21,Luxembourg
+29,Fournisseur Premium,Abonnements,1,19.99,2023-03-24,Canada
+30,Plan Marketing Faceless,Plans,1,9.99,2023-03-27,France
+31,Ebook: Guide SEO,Livres,1,9.99,2023-04-01,Belgique
+32,Pack de Templates,Templates,1,19.99,2023-04-04,France
+33,Formation Marketing Digital,Formations,1,49.99,2023-04-07,Suisse
+34,Service Création Beacons,Services,1,14.99,2023-04-10,France
+35,Coaching Privé,Services,1,150.00,2023-04-13,Canada
+36,Fournisseur Premium,Abonnements,1,19.99,2023-04-16,France
+37,Plan Marketing Faceless,Plans,1,9.99,2023-04-19,Belgique
+38,Formation Marketing Digital,Formations,1,49.99,2023-04-22,France
+39,Ebook: Guide SEO,Livres,1,9.99,2023-04-25,Luxembourg
+40,Pack de Templates,Templates,1,19.99,2023-04-28,France
+41,Service Création Beacons,Services,1,14.99,2023-05-02,Canada
+42,Coaching Privé,Services,1,150.00,2023-05-05,Suisse
+43,Fournisseur Premium,Abonnements,1,19.99,2023-05-08,France
+44,Plan Marketing Faceless,Plans,1,9.99,2023-05-11,France
+45,Formation Marketing Digital,Formations,1,49.99,2023-05-14,Belgique
+46,Ebook: Guide SEO,Livres,1,9.99,2023-05-17,France
+47,Pack de Templates,Templates,1,19.99,2023-05-20,Canada
+48,Service Création Beacons,Services,1,14.99,2023-05-23,France
+49,Coaching Privé,Services,1,150.00,2023-05-26,Luxembourg
+50,Fournisseur Premium,Abonnements,1,19.99,2023-05-29,Suisse
+51,Plan Marketing Faceless,Plans,1,9.99,2023-06-01,France
+52,Formation Marketing Digital,Formations,1,49.99,2023-06-04,France
+53,Ebook: Guide SEO,Livres,1,9.99,2023-06-07,Belgique
+54,Pack de Templates,Templates,1,19.99,2023-06-10,Canada
+55,Service Création Beacons,Services,1,14.99,2023-06-13,France
+56,Coaching Privé,Services,1,150.00,2023-06-16,Suisse
+57,Fournisseur Premium,Abonnements,1,19.99,2023-06-19,France
+58,Plan Marketing Faceless,Plans,1,9.99,2023-06-22,Luxembourg
+59,Formation Marketing Digital,Formations,1,49.99,2023-06-25,France
+60,Ebook: Guide SEO,Livres,1,9.99,2023-06-28,Canada
+61,Pack de Templates,Templates,1,19.99,2023-07-01,France
+62,Service Création Beacons,Services,1,14.99,2023-07-04,Belgique
+63,Coaching Privé,Services,1,150.00,2023-07-07,Suisse
+64,Fournisseur Premium,Abonnements,1,19.99,2023-07-10,France
+65,Plan Marketing Faceless,Plans,1,9.99,2023-07-13,Canada
+66,Formation Marketing Digital,Formations,1,49.99,2023-07-16,France
+67,Ebook: Guide SEO,Livres,1,9.99,2023-07-19,Luxembourg
+68,Pack de Templates,Templates,1,19.99,2023-07-22,France
+69,Service Création Beacons,Services,1,14.99,2023-07-25,Belgique
+70,Coaching Privé,Services,1,150.00,2023-07-28,Suisse
+71,Fournisseur Premium,Abonnements,1,19.99,2023-08-01,France
+72,Plan Marketing Faceless,Plans,1,9.99,2023-08-04,Canada
+73,Formation Marketing Digital,Formations,1,49.99,2023-08-07,France
+74,Ebook: Guide SEO,Livres,1,9.99,2023-08-10,France
+75,Pack de Templates,Templates,1,19.99,2023-08-13,Belgique
+76,Service Création Beacons,Services,1,14.99,2023-08-16,Suisse
+77,Coaching Privé,Services,1,150.00,2023-08-19,France
+78,Fournisseur Premium,Abonnements,1,19.99,2023-08-22,Canada
+79,Plan Marketing Faceless,Plans,1,9.99,2023-08-25,Luxembourg
+80,Formation Marketing Digital,Formations,1,49.99,2023-08-28,France
+81,Ebook: Guide SEO,Livres,1,9.99,2023-09-01,Suisse
+82,Pack de Templates,Templates,1,19.99,2023-09-04,France
+83,Service Création Beacons,Services,1,14.99,2023-09-07,Belgique
+84,Coaching Privé,Services,1,150.00,2023-09-10,Canada
+85,Fournisseur Premium,Abonnements,1,19.99,2023-09-13,France
+86,Plan Marketing Faceless,Plans,1,9.99,2023-09-16,Luxembourg
+87,Formation Marketing Digital,Formations,1,49.99,2023-09-19,France
+88,Ebook: Guide SEO,Livres,1,9.99,2023-09-22,Suisse
+89,Pack de Templates,Templates,1,19.99,2023-09-25,Canada
+90,Service Création Beacons,Services,1,14.99,2023-09-28,France
+91,Coaching Privé,Services,1,150.00,2023-10-01,Belgique
+92,Fournisseur Premium,Abonnements,1,19.99,2023-10-04,France
+93,Plan Marketing Faceless,Plans,1,9.99,2023-10-07,Luxembourg
+94,Formation Marketing Digital,Formations,1,49.99,2023-10-10,Canada
+95,Ebook: Guide SEO,Livres,1,9.99,2023-10-13,France
+96,Pack de Templates,Templates,1,19.99,2023-10-16,Suisse
+97,Service Création Beacons,Services,1,14.99,2023-10-19,France
+98,Coaching Privé,Services,1,150.00,2023-10-22,Belgique
+99,Fournisseur Premium,Abonnements,1,19.99,2023-10-25,France
+100,Formation Marketing Digital,Formations,1,49.99,2023-10-28,Canada

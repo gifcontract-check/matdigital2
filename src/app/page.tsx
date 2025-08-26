@@ -271,7 +271,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <Image 
-                src="https://cdn.beacons.ai/user_content/jbVI3warzwNsXvORBwXzf4N59Dp2/referenced_images/baf57303-7c26-40e5-bc78-989e94378245__store__product-image__ea34cd18-7aad-43dd-be7a-adb08c5f6f0d__6ee8b7bd-2ac6-475a-b171-982d575e49b9.webp?t=1756189241510"
+                src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/be3b385d-72a5-4a26-8486-8dcdfee7b8f7__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__82153892-136e-4178-8acf-030e060f5833.jpg?t=1756138933221"
                 alt="Résultat étudiant 1"
                 width={1280}
                 height={720}

@@ -89,6 +89,30 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
+        <section id="hero" className="w-full py-20 md:py-32 lg:py-40 bg-gradient-to-br from-primary/10 via-background to-accent/10">
+          <div className="container mx-auto px-4 md:px-6 text-center">
+            <div className="max-w-3xl mx-auto">
+              <Badge variant="outline" className="mb-4 text-accent border-accent py-1 px-3">
+                <Star className="w-4 h-4 mr-2" />
+                N°1 des formations business en ligne
+              </Badge>
+              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
+                Devenez un expert du numérique.
+              </h1>
+              <p className="mt-6 text-lg md:text-xl text-muted-foreground">
+                Accédez à des formations de pointe pour maîtriser le marketing digital, la création de business en ligne et booster votre productivité.
+              </p>
+              <div className="mt-8 flex justify-center gap-4">
+                <Button asChild size="lg" className="group">
+                  <Link href="#courses">
+                    Découvrir nos formations <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="carousel" className="w-full py-12 md:py-16 lg:py-20">
             <Carousel opts={{ loop: true }} className="w-full max-w-4xl mx-auto">
               <CarouselContent>
@@ -112,30 +136,6 @@ export default function Home() {
                 <CarouselNext className="relative -right-0 top-auto -translate-y-0" />
               </div>
             </Carousel>
-        </section>
-
-        <section id="hero" className="w-full py-20 md:py-32 lg:py-40 bg-gradient-to-br from-primary/10 via-background to-accent/10">
-          <div className="container mx-auto px-4 md:px-6 text-center">
-            <div className="max-w-3xl mx-auto">
-              <Badge variant="outline" className="mb-4 text-accent border-accent py-1 px-3">
-                <Star className="w-4 h-4 mr-2" />
-                N°1 des formations business en ligne
-              </Badge>
-              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-                Devenez un expert du numérique.
-              </h1>
-              <p className="mt-6 text-lg md:text-xl text-muted-foreground">
-                Accédez à des formations de pointe pour maîtriser le marketing digital, la création de business en ligne et booster votre productivité.
-              </p>
-              <div className="mt-8 flex justify-center gap-4">
-                <Button asChild size="lg" className="group">
-                  <Link href="#courses">
-                    Découvrir nos formations <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section id="about" className="w-full py-16 md:py-24 lg:py-32 bg-secondary">

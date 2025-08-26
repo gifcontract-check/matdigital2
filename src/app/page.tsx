@@ -269,7 +269,7 @@ export default function Home() {
                 Des exemples concrets de la réussite de nos étudiants.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <Image 
                 src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/be3b385d-72a5-4a26-8486-8dcdfee7b8f7__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__82153892-136e-4178-8acf-030e060f5833.jpg?t=1756138933221"
                 alt="Résultat étudiant 1"
@@ -286,6 +286,14 @@ export default function Home() {
                 className="rounded-lg shadow-lg"
                 data-ai-hint="student achievement"
               />
+              <Image 
+                src="https://cdn.beacons.ai/user_content/Ugut7TmcPWh6Y0K3QJfnbMTC2w13/referenced_images/d9549b4d-90e5-4c88-9216-c538e1af539b__link-in-bio__image-block__4e76af7d-f7b1-48c4-8843-e53a562fb32e__c1582f95-30fa-4db9-b259-f24f1d382482__f0888212-6ab4-4c2b-9293-e9bbc30d9e1e.jpg?t=1756138790669"
+                alt="Résultat étudiant 3"
+                width={1080}
+                height={1080}
+                className="rounded-lg shadow-lg"
+                data-ai-hint="student progress"
+              />
             </div>
           </div>
         </section>
@@ -294,3 +302,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
